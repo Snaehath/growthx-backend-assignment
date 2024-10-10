@@ -2,7 +2,7 @@
 
 ### Database Setup:
 
-1. Create a [`MongoDB`](https://www.mongodb.com/) with a collection named `Assignment-project`
+1. Create a [`MongoDB`](https://www.mongodb.com/) database with a collection named `Assignment-project`
 2. Create `.env` file in the root directory with variable `CONNECTION_STRING` assigned to the `mongodb uri` which can be found in the `Connect -> Connect your application` section of your mongo db database
 3. Make sure to select the `Node.JS` driver with the version `4.1 or later`
 
