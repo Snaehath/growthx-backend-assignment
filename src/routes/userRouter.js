@@ -45,7 +45,7 @@ router.post("/register", async (req, res) => {
 
 router.post("/login", async (req, res, next) => {
   const { email, password } = req.body;
-  const secret = process.env.secret;
+  const secret = process.env.SECRET;
 
   // Check if email and password are provided
   if (!email || !password) {

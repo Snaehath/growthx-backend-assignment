@@ -1,7 +1,7 @@
 const { expressjwt } = require("express-jwt");
 
 function authJwt() {
-  const secret = process.env.secret;
+  const secret = process.env.SECRET;
 
   return expressjwt({
     secret,
